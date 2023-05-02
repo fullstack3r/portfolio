@@ -1,0 +1,15 @@
+.bg_contact {
+    background-color: var(--bg-two)
+}
+
+.bg_contact h1 {
+    margin: 0;
+}
+
+.bg_contact .btn-common {
+    margin: 2rem;
+}
+
+.p10 {
+    padding: 10rem;
+}

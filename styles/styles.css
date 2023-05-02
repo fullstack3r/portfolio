@@ -5,6 +5,7 @@
     --white: #fff;
     --gray: #B3B3B3;
     --color-text: #000;
+    --bg-two: #F2F2F2;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 body {
     margin: 0;
-    background-color: var(--primary);
+    background-color: var(--primary)!important;
     color: var(--color-text);
 }
 p {
@@ -81,6 +82,7 @@ a {
 .center_flex {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 .section_title_two h1{
     padding-left: 30px;
@@ -121,6 +123,9 @@ a {
     border: 2px solid #000000;
     border-radius: 30px;
     cursor: pointer;
+}
+.section_one .buttons .btn-common {
+    margin-right: 2rem;
 }
 
 .title_about {
@@ -168,50 +173,46 @@ a {
     padding-top: 19rem;
 }
 
-.card-project {
-    width: 50%;
-    height: 300px;
-    background-image: url("/assets/images/profile.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 1rem;
-    border-radius: 1rem;
+.colum {
+    flex-direction: column;
 }
 
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .half-width {
+.w-50 {
     width: 50%;
-    height: 57rem;
-  }
-  
-  .img-one {
-  
-    width: 49%;
-    background-image: url("/assets/images/shop.svg");
-    background-size: 100%;
+}
+.logofooter {
+    width: 8rem;
+}
+.section_footer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+footer .display_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer .btn-social {
+    margin: 2rem;
+}
+.bg_contact .center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.bg-about {
+    background:  var(--secondary);
+    background: radial-gradient(circle farthest-side at left center, #33E459 -2%, #FFFFFF 20%);
     background-repeat: no-repeat;
-    border-radius: 10px;
-    margin: 5px;
    
-  }
-  
-  .full-height {
-    height: 47%;
-    width: 100%;
-    display: inline-flex;
-    flex-direction: row-reverse;
-    background-image: url("/assets/images/shop.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    margin: 5px;
+}
 
-  }
-  
-
+.bg-projects {
+    background:  var(--secondary);
+    background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);    background-repeat: no-repeat;
+}

@@ -1,0 +1,79 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.half-width {
+    width: 49%;
+    height: 70rem;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    padding-left: 1%;
+}
+
+.img-one {
+    height: 70rem;
+    width: 50%;
+    background-image: url("/assets/images/shop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.full-height {
+    height: 49%;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    background-image: url("/assets/images/shop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+.section-project {
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.section-project h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 2rem 0rem;
+}
+.section-project .btn-common {
+    color: #fff;
+    border: 2px solid #fff;
+    margin-right: 2rem;
+    background-color: #111;
+}
+.d-flex-p-b {
+    display: flex;
+    align-items: flex-end;
+}
+.btona {
+    background-color: var(--secondary);   
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #111;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
