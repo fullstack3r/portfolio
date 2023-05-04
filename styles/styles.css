@@ -143,6 +143,15 @@ a {
 .mt-5 {
     margin-top: 5rem;
 }
+.mb-5 {
+    margin-bottom: 5rem;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
 .last_name {
     font-family: 'Poppins';
     font-style: normal;
@@ -216,3 +225,4 @@ footer .btn-social {
     background:  var(--secondary);
     background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);    background-repeat: no-repeat;
 }
+

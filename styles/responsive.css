@@ -1,0 +1,40 @@
+/* Pantallas pequeñas */
+@media (max-width: 576px) {
+    /* Aquí van las reglas CSS para pantallas pequeñas */
+    .section {
+        margin: 0rem;
+    }
+    .navbar-number {
+        display: none;
+    }
+}
+  
+/* Pantallas medianas */
+@media (min-width: 576px) and (max-width: 768px) {
+/* Aquí van las reglas CSS para pantallas medianas */
+}
+
+/* Pantallas grandes */
+@media (min-width: 768px) {
+/* Aquí van las reglas CSS para pantallas grandes */
+}
+  
+
+
+
+/* Aquí van las reglas CSS para pantallas extra grandes */
+@media (min-width: 1200px) {
+    .bg-about {
+             background: radial-gradient(circle farthest-side at left center, #33E459 -2%, #FFFFFF 10%);
+    
+    }
+    .bg-projects {   
+        background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 10%);
+    }
+   
+    /* optional */
+    /* .section {
+        margin-left: 25rem;
+        margin-right: 25rem;
+    } */
+}

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/animation.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,8 +39,8 @@
 
     <!-- banner principal -->
     <section class="section display_two">
-        <div class="section_one">
-            <div class="title_web">
+        <div class="section_one mt-5 mb-5">
+            <div class="title_web ">
                 <h1>FULL STACK</h1>
                 <span class="section_title_two">
                     <img src="assets/images/buttoncode.svg">
@@ -123,7 +124,7 @@
 
         <!-- about -->
         <section class="section display_two about ">
-            <div class="section_one">
+            <div class="section_one  mt-5 mb-5">
                 <h1 class="title_about"><span class="color-green">.</span>About</h1>
                 <div class="display_two mt-5 center_flex">
                     <img class="img_profile" src="assets/images/profile.png">
@@ -148,7 +149,7 @@
                     <br> posuere felis eget, tincidunt ante.
                 </p>
             </div>
-            <div class="section_two languages ">
+            <div class="section_two languages mt-5 mb-5">
                 <div class="pt-19">
                     <button class="btn-common">HTML</button>
                     <button class="btn-common">CSS</button>
@@ -175,7 +176,11 @@
 
     <!-- proyectos -->
     <div class="bg-projects">
-        <section class="section display_two ">
+        <div class="section mt-5 mb-0">
+            <h1 class="title_about"><span class="color-green">.</span>About</h1>
+        </div>
+        <section class="section display_two mt-0">
+            
             <div class="gallery">
                 <div class="img-one d-flex-p-b">
                     <a class="btona"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -209,12 +214,12 @@
             </div>
         </section>
     </div>
-   
+    <br>
     <!--fin proyectos -->
 
     <!-- seccion contact -->
-    <section class="bg_contact">
-        <div class=" display_two p10 center">
+    <section class="bg_contact mt-5">
+        <div class=" display_two p20 center">
             <div class="title_web center_flex colum">
                 <h1>Let’s work <br>
                     together</h1>
@@ -223,7 +228,7 @@
                     </div>
                     <div class="buttons">
                         <button class="btn-common">DOWNLOAD CV</button>
-                        <button class="btn-common bg-gren">LET'S TALK!</button>
+                        <a href="mailto:tuemail@gmail.com" class="btn-common bg-gren">LET'S TALK!</a>
                     </div>
             </div>
         </div>

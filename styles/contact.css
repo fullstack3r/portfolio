@@ -10,6 +10,20 @@
     margin: 2rem;
 }
 
-.p10 {
-    padding: 10rem;
+.p20 {
+    padding: 20rem;
+}
+
+.bg_contact .buttons {
+    display: inline-flex;
+}
+.buttons a {
+    color: #111;
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+
 }
