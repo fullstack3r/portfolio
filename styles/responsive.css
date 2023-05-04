@@ -2,16 +2,133 @@
 @media (max-width: 576px) {
     /* Aquí van las reglas CSS para pantallas pequeñas */
     .section {
-        margin: 0rem;
+        margin: 2rem;
     }
     .navbar-number {
         display: none;
     }
+    .navbar-left {
+        width: 100%;
+        justify-content: center;
+    }
+    .social {
+        display: none;
+    }
+    .section_one  {
+        width: 100%;
+    }
+    .section_two  {
+        width: 100%;
+    }
+    .title_web h1 {
+        font-size: 8rem;
+        line-height: 7rem;
+    }
+    .section_title_two h1{
+        font-size: 4rem;
+        padding-left: 0px;
+       
+    }
+    .section_title_two img {
+        display: none;
+    }
+    .display_two {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .bg_contact .title_web h1 {
+        font-size: 4rem;
+        line-height: 7rem;
+    }
+
+    .p20 {
+        padding: 2rem;
+    }
+
+    .colum {
+        width: 100%;
+    }
+
+    .bg_contact .buttons {
+        flex-direction: column;
+    }
+    .img-one {
+        width: 100%;
+        height: 49%;
+    }
+    .half-width {
+        width: 100%;
+    }
+    .section-project {
+        width: 100%;
+        z-index: 1;
+        color: #fff;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+    .gallery .img-one {
+        display: none;
+    }
+    .section_footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+            .w-50 {
+                width: 100%;
+            }
+    }
+    /* .section_footer .w-50 {
+        width: 100%;
+    } */
+    footer .display_two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pt-19 {
+        padding-top: 0rem;
+    }
+
+   
+    .bg-about .display_two {
+        display: flex;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_lastname {
+        padding-left: 0rem;
+    }
+
+    .section_lastname .display_two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    footer {
+        .w-50 {
+            width: 100%;
+            text-align: center;
+        }
+    }
+   
 }
   
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {
 /* Aquí van las reglas CSS para pantallas medianas */
+    .section_one  {
+        width: 100%;
+    }
+    .section_two  {
+        width: 100%;
+    }
 }
 
 /* Pantallas grandes */
@@ -32,9 +149,9 @@
         background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 10%);
     }
    
-    /* optional */
-    /* .section {
+    
+    .section {
         margin-left: 25rem;
         margin-right: 25rem;
-    } */
+    } 
 }
