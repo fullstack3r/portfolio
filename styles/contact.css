@@ -17,6 +17,7 @@
 .bg_contact .buttons {
     display: inline-flex;
 }
+
 .buttons a {
     color: #111;
     display: flex;
