@@ -15,11 +15,13 @@ html {
 * {
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     margin: 0;
-    background-color: var(--primary)!important;
+    background-color: var(--primary) !important;
     color: var(--color-text);
 }
+
 p {
     font-family: 'Poppins';
     font-style: normal;
@@ -28,23 +30,28 @@ p {
     line-height: 30px;
     color: var(--color-text);
 }
+
 a {
     cursor: pointer;
 }
+
 .color-green {
-    color:  var(--secondary);
+    color: var(--secondary);
 }
+
 .bg-primary {
     background-color: var(--black);
     color: var(--white);
 }
+
 .section-bg {
-    background:  var(--secondary);
+    background: var(--secondary);
     background: radial-gradient(circle farthest-corner at top right, #33E459 2%, #FFFFFF 16%);
     background-repeat: no-repeat;
 }
+
 .bg-gren {
-    background-color: var(--secondary)!important;
+    background-color: var(--secondary) !important;
 }
 
 .section {
@@ -55,6 +62,7 @@ a {
     display: flex;
 
 }
+
 .section_one {
     display: flex;
     justify-content: space-between;
@@ -62,6 +70,7 @@ a {
     padding: 15px;
     width: 50%;
 }
+
 .section_two {
     display: flex;
     width: 50%;
@@ -71,22 +80,27 @@ a {
     flex-wrap: nowrap;
     justify-content: center;
 }
+
 .section_two a {
     margin-bottom: 4rem;
 }
+
 .section_title_two {
     display: flex;
     align-items: center;
-    
+
 }
+
 .center_flex {
     display: flex;
     align-items: center;
     text-align: center;
 }
-.section_title_two h1{
+
+.section_title_two h1 {
     padding-left: 30px;
 }
+
 .title_web h1 {
     font-family: 'Monument Extended';
     font-style: normal;
@@ -96,14 +110,17 @@ a {
     /* identical to box height */
     text-transform: uppercase;
 }
+
 .section_one h1 {
     margin: 0;
 }
+
 .section_one .subtutle p {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
 }
+
 .btn-social {
     width: 40px;
     height: 40px;
@@ -124,6 +141,7 @@ a {
     border-radius: 30px;
     cursor: pointer;
 }
+
 .section_one .buttons .btn-common {
     margin-right: 2rem;
 }
@@ -135,23 +153,29 @@ a {
     font-size: 60px;
     text-transform: uppercase;
 }
+
 .img_profile {
     border-radius: 100%;
     width: 17rem;
     height: fit-content;
 }
+
 .mt-5 {
     margin-top: 5rem;
 }
+
 .mb-5 {
     margin-bottom: 5rem;
 }
+
 .mt-0 {
     margin-top: 0;
 }
+
 .mb-0 {
     margin-bottom: 0;
 }
+
 .last_name {
     font-family: 'Poppins';
     font-style: normal;
@@ -159,19 +183,24 @@ a {
     font-size: 35px;
     line-height: 52px;
 }
+
 .section_lastname {
     padding-left: 5rem;
 }
+
 .section_lastname h5 {
     margin: 0;
 }
+
 .about .btn-social {
     margin-right: 4rem;
     margin-top: 1rem;
 }
+
 .languages {
     align-items: flex-start;
 }
+
 .languages .btn-common {
     width: auto;
     padding: 0px 5rem;
@@ -189,9 +218,11 @@ a {
 .w-50 {
     width: 50%;
 }
+
 .logofooter {
     width: 8rem;
 }
+
 .section_footer {
     padding-left: 10rem;
     padding-right: 10rem;
@@ -203,9 +234,11 @@ footer .display_two {
     justify-content: flex-end;
     align-items: center;
 }
+
 footer .btn-social {
     margin: 2rem;
 }
+
 .bg_contact .center {
     display: flex;
     text-align: center;
@@ -215,14 +248,14 @@ footer .btn-social {
 }
 
 .bg-about {
-    background:  var(--secondary);
+    background: var(--secondary);
     background: radial-gradient(circle farthest-side at left center, #33E459 -2%, #FFFFFF 20%);
     background-repeat: no-repeat;
-   
+
 }
 
 .bg-projects {
-    background:  var(--secondary);
-    background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);    background-repeat: no-repeat;
+    background: var(--secondary);
+    background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);
+    background-repeat: no-repeat;
 }
-

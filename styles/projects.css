@@ -47,23 +47,27 @@
     padding: 2rem;
     box-sizing: border-box;
 }
-.section-project h3{
+
+.section-project h3 {
     font-weight: 700;
     font-size: 35px;
     margin: 2rem 0rem;
 }
+
 .section-project .btn-common {
     color: #fff;
     border: 2px solid #fff;
     margin-right: 2rem;
     background-color: #111;
 }
+
 .d-flex-p-b {
     display: flex;
     align-items: flex-end;
 }
+
 .btona {
-    background-color: var(--secondary);   
+    background-color: var(--secondary);
     height: 5rem;
     width: 5rem;
     text-align: center;
