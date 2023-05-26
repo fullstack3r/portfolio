@@ -15,6 +15,11 @@ nav {
   line-height: 45px;
 }
 
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-right ul {
   list-style: none;
   padding: 0;
