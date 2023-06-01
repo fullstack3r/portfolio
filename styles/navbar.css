@@ -10,9 +10,12 @@ nav {
 }
 
 .logo {
-  position: absolute;
   width: 15rem;
   line-height: 45px;
+}
+
+.navbar-left {
+  gap: 3rem;
 }
 
 .navbar-right {

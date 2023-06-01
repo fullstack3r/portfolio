@@ -7,7 +7,7 @@ function getMiPromesa() {
     } else {
       reject("Se cancelo la operacion");
     }
-  };
+  }
 
   return new Promise(funct);
 }
