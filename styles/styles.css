@@ -259,3 +259,7 @@ footer .btn-social {
     background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);
     background-repeat: no-repeat;
 }
+
+#dev-text {
+    min-height:  12rem;
+}

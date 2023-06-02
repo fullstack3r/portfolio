@@ -44,6 +44,8 @@
   "projects": [
     { "name": "Mi proyecto 1", "img": "/assets/images/shop.svg" },
     { "name": "Mi proyecto 2", "img": "/assets/images/shop.svg" },
-    { "name": "Mi proyecto 3", "img": "/assets/images/shop.svg" }
+    { "name": "Mi proyecto 3", "img": "/assets/images/shop.svg" },
+    { "name": "Mi proyecto 4", "img": "/assets/images/shop.svg" },
+    { "name": "Mi proyecto 5", "img": "/assets/images/shop.svg" }
   ]
 }
