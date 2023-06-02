@@ -1,19 +1,49 @@
 {
   "skills": [
-    { "name": "HTML" },
-    { "name": "CSS" },
-    { "name": "JavaScript" },
-    { "name": "GIT" },
-    { "name": "Node" },
-    { "name": "React" },
-    { "name": "MongoDB" },
-    { "name": "NextJS" },
-    { "name": "Typescript" },
-    { "name": "AWS" }
+    {
+      "name": "HTML",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "CSS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "JavaScript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "GIT",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "Node",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "React",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "MongoDB",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "NextJS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "Typescript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "AWS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    }
   ],
   "projects": [
-    { "name": "Mi proyecto 1" },
-    { "name": "Mi proyecto 2" },
-    { "name": "Mi proyecto 3" }
+    { "name": "Mi proyecto 1", "img": "/assets/images/shop.svg" },
+    { "name": "Mi proyecto 2", "img": "/assets/images/shop.svg" },
+    { "name": "Mi proyecto 3", "img": "/assets/images/shop.svg" }
   ]
 }
