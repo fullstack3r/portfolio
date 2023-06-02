@@ -1,5 +1,3 @@
-const skillsDiv = document.getElementById("skills-container");
-const gallery = document.getElementById("gallery");
 const backendUrl = "http://127.0.0.1:5500";
 
 var projectIndex = 0;

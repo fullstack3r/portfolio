@@ -1,3 +1,6 @@
+const skillsDiv = document.getElementById("skills-container");
+const gallery = document.getElementById("gallery");
+
 function render() {
   skillsDiv.innerHTML = "";
   db.skills.forEach((skill) => {
