@@ -1,10 +1,16 @@
 const skillsDiv = document.getElementById("skills-container");
+const skillsDescription = document.getElementById('skills-description');
 const gallery = document.getElementById("gallery");
+
+function clickSkill(index) {
+  const skill = db.skills[index];
+  skillsDescription.textContent = skill.description;
+}
 
 function render() {
   skillsDiv.innerHTML = "";
-  db.skills.forEach((skill) => {
-    skillsDiv.innerHTML += `<button class="btn-common">${skill.name}</button>`;
+  db.skills.forEach((skill, i) => {
+    skillsDiv.innerHTML += `<button class="btn-common" onclick="clickSkill(${i})">${skill.name}</button>`;
   });
 
   const projects = getCurrentProjects();
@@ -51,6 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   var typed = new Typed("#dev-text", {
     strings: ["Developer.", "Creator.", "Designer."],
     typeSpeed: 50,
-    loop: true
+    loop: true,
   });
 });

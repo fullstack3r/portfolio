@@ -2,43 +2,43 @@
   "skills": [
     {
       "name": "HTML",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "HTML, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "CSS",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "CSS, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "JavaScript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "JS, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "GIT",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "GIT, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "Node",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "Node, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "React",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "React, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "MongoDB",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "MongoDB, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "NextJS",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "NextJS, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "Typescript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "Typescript, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
       "name": "AWS",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+      "description": "AWS, Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     }
   ],
   "projects": [
