@@ -1,4 +1,4 @@
-const backendUrl = "http://127.0.0.1:5500";
+const backendUrl = "http://127.0.0.1:3000";
 
 var projectIndex = 0;
 function getCurrentProjects() {
@@ -13,13 +13,16 @@ function nextProject() {
   render();
 }
 
-async function load() {
-  const url = `${backendUrl}/assets/db.json`;
+async function loadProjects() {
+  const url = `${backendUrl}/projects`;
+  const result = await fetch(url);
 
+  return await result.json();
+}
+
+async function load() {
   try {
-    const response = await fetch(url);
-    const midb = await response.json();
-    db = midb;
+    db.projects = await loadProjects();
   } catch (e) {
     console.log("ERROR!");
   }
