@@ -20,7 +20,7 @@ function render() {
   }
 
   gallery.innerHTML = `
-      <div class="img-one d-flex-p-b">
+      <div class="img-one d-flex-p-b" style="background-image: url(${firstProject.img});">
           <a class="btona">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>

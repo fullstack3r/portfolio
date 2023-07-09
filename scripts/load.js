@@ -1,4 +1,5 @@
-const backendUrl = "http://127.0.0.1:3000";
+// cambiar por url de api
+const backendUrl = "http://127.0.0.1:3100";
 
 var projectIndex = 0;
 function getCurrentProjects() {
@@ -33,5 +34,5 @@ async function load() {
 document.addEventListener("DOMContentLoaded", () => {
   load();
   render();
-  setInterval(nextProject, 2000);
+  setInterval(nextProject, 1000000);
 });
